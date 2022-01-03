@@ -8,7 +8,7 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-public class StudentContentProvider extends ContentProvider {
+public class StudentDbContract extends ContentProvider {
     @Override
     public boolean onCreate() {
         return false;
