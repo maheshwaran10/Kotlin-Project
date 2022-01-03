@@ -16,11 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <provider
-            android:authorities="com.example.companyproject"
-            android:name=".StudentDbContract"
-            android:exported="false"
-            />
     </application>
 
 </manifest>
