@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Company Project</string>
+    <string name="name">Name</string>
+    <string name="add_users">Add Users</string>
+    <string name="show_users">Show Users</string>
 </resources>
