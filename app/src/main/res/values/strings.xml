@@ -3,4 +3,5 @@
     <string name="name">Name</string>
     <string name="add_users">Add Users</string>
     <string name="show_users">Show Users</string>
+    <string name="enter_user_name">Enter User Name</string>
 </resources>
