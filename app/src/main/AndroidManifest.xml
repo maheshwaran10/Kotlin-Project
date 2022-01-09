@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.companyproject">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,9 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CompanyProject">
-        <activity android:name=".MainActivity" android:exported="true"/>
-        <activity android:name=".BroadcastReceiverActivity" android:exported="true">
-
+        <activity
+            android:name=".MultipleView"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BroadcastReceiverActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,12 +27,12 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".MyReceiver"
+        <receiver
+            android:name=".MyReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="android.intent.action.AIRPLANE_MODE"/>
-                <action android:name="com.example.companyproject.CUSTOM_MESSAGE"/>
-
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+                <action android:name="com.example.companyproject.CUSTOM_MESSAGE" />
             </intent-filter>
         </receiver>
 
