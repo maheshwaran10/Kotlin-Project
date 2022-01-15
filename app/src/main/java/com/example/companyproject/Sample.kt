@@ -8,7 +8,10 @@ fun main(){
     println(emp.age)
     println(emp.name)
 
-
+    emp.let {
+        println(it.name)
+        println(it.age)
+    }
 
 
 }
