@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CompanyProject">
         <activity
+            android:name=".OutputLoadActivity"
+            android:exported="false" />
+        <activity
             android:name=".TableLayoutActivity"
             android:exported="false" />
         <activity
