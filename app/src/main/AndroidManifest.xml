@@ -15,18 +15,6 @@
             android:name=".OutputLoadActivity"
             android:exported="false" />
         <activity
-            android:name=".TableLayoutActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
-        <activity
-            android:name=".BroadcastReceiverActivity"
-            android:exported="true"/>
-        <activity
-            android:name=".MultipleView"
-            android:exported="true" />
-        <activity
             android:name=".MvcPatternActivity"
             android:exported="true" >
             <intent-filter>
@@ -36,18 +24,6 @@
             </intent-filter>
         </activity>
 
-        <receiver
-            android:name=".MyReceiver"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="android.intent.action.AIRPLANE_MODE" />
-                <action android:name="com.example.companyproject.CUSTOM_MESSAGE" />
-            </intent-filter>
-        </receiver>
-
-        <provider
-            android:name=".UsersProvider"
-            android:authorities="com.example.companyproject.UserProvider" />
     </application>
 
 </manifest>
