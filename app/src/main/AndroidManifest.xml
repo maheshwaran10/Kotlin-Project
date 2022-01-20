@@ -18,14 +18,17 @@
             android:name=".TableLayoutActivity"
             android:exported="false" />
         <activity
-            android:name=".MultipleView"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".BroadcastReceiverActivity"
-            android:exported="true">
+            android:exported="true"/>
+        <activity
+            android:name=".MultipleView"
+            android:exported="true" />
+        <activity
+            android:name=".MvcPatternActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
