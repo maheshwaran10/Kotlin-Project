@@ -12,11 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CompanyProject">
         <activity
+            android:name=".navigateGraph.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".navigateGraph.RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name=".MvcPatternActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".lottie.LottieAnimationActivity"
-            android:exported="true" >
+            android:exported="true" />
+        <activity
+            android:name=".navigateGraph.LoginActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

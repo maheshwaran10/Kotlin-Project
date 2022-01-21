@@ -14,4 +14,9 @@
     <string name="user_name_error_label">Enter proper user name</string>
     <string name="password_error_label">Password not meeting the criteria</string>
     <string name="model_view_controller_example">Model View Controller Example</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_name">Enter Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hi_iam_a_fragment">Hi Iam a Fragment</string>
 </resources>
