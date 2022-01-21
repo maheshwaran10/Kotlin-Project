@@ -70,7 +70,7 @@
                     android:fontFamily="@font/hind_guntur"/>
             </com.google.android.material.textfield.TextInputLayout>
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/appCompatButton"
+                android:id="@+id/login"
                 android:layout_width="348dp"
                 android:layout_height="55dp"
                 android:layout_gravity="bottom|center"
