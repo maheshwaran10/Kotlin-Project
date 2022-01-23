@@ -8,6 +8,8 @@ import android.widget.Toast
 import com.example.companyproject.controller.ILoginController
 import com.example.companyproject.controller.LoginController
 import com.example.companyproject.view.ILoginView
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.coroutineScope
 
 class MvcPatternActivity : AppCompatActivity() , ILoginView {
    private lateinit var email: EditText
@@ -28,6 +30,7 @@ class MvcPatternActivity : AppCompatActivity() , ILoginView {
                 password.text.toString().trim()
             )
         }
+
     }
 
     override fun OnLoginSuccess(message: String?) {
@@ -37,4 +40,5 @@ class MvcPatternActivity : AppCompatActivity() , ILoginView {
     override fun OnLoginError(message: String?) {
         Toast.makeText(this,message,Toast.LENGTH_LONG).show()
     }
+
 }
