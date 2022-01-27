@@ -12,17 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CompanyProject">
         <activity
+            android:name=".viewPager.ViewPagerSampleActivity"
+            android:exported="false" />
+        <activity
             android:name=".MvcPatternActivity"
             android:exported="true" />
         <activity
             android:name=".lottie.LottieAnimationActivity"
             android:exported="true" />
-
         <activity
             android:name=".CoroutineExampleActivity"
             android:exported="true" />
         <activity
             android:name=".navigateGraph.MainActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".mvvm.MvvmExampleActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
