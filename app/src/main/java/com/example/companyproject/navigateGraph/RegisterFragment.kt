@@ -44,6 +44,7 @@ class RegisterFragment : Fragment() {
             if(TextUtils.isEmpty(name)){//name.isEmpty()
                 userName.error = "Enter your Name"
                 return@setOnClickListener
+
             }
             if (name.matches(userNamePattern.toRegex())) {
                 Toast.makeText(activity,"UserName is Valid",Toast.LENGTH_SHORT).show()
